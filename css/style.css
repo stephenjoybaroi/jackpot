@@ -453,3 +453,266 @@ button a {
 }
 
 /* PRICING PART END */
+
+
+/* QUESTION PART START */
+#question_part{
+    padding: 100px 0;
+    background: #150035;
+}
+
+.left_text_line{
+    padding: 1px 0;
+    background: #0b001b;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.left_text h1{
+    font-size: 40px;
+    font-weight: 400;
+    font-family: 'Anton', sans-serif;
+    color: #ffdc28;
+}
+.left_text p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 80px;
+    font-family: 'Nunito', sans-serif;
+    color: #fff;
+    padding-left: 20px;
+}
+
+.question_four{
+    padding: 20px 20px;
+    border: 1px solid #fcb100;
+}
+
+
+.paragraph_one{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    font-family: 'Nunito', sans-serif;
+    color: #fff;
+    
+}
+
+/* RIGHT TEXT PART */
+.right_text_line{
+    padding: 1px 0;
+    background: #0b001b;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.right_text h1{
+    font-size: 40px;
+    font-weight: 400;
+    font-family: 'Anton', sans-serif;
+    color: #ffdc28;
+}
+
+.time_text h3{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 80px;
+    font-family: 'Nunito', sans-serif;
+    color: #fff;
+}
+
+.hour{
+    border: 1px solid #fcb100;
+    border-radius: 5px;
+    padding: 20px 20px;
+}
+.hour h3{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    color: #fcb100;
+}
+.min{
+    border: 1px solid #fcb100;
+    border-radius: 5px;
+    padding: 20px 20px;
+}
+.min h3{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    color: #fcb100;
+}
+.secs{
+    border: 1px solid #fcb100;
+    border-radius: 5px;
+    padding: 20px 20px;
+}
+.secs h3{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    color: #fcb100;
+}
+
+
+.row_one_text p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Nunito', sans-serif;
+    color: #fff;
+}
+.price p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Nunito', sans-serif;
+    color: #fff;
+}
+
+.flag_part_one{
+    padding: 20px 0;
+    border-bottom: 1px solid #0b001b;
+}
+.flag_part_last{
+    padding: 20px 0;
+}
+
+/* QUESTION PART END */
+
+/* SUBSCRIBE PART START */
+#subscribe_part{
+    padding: 30px 0;
+    border-bottom: 8px solid #3a0090;
+    background-image: linear-gradient(#9e4efc, #570dc8);
+}
+
+.input_field{
+    font-size: 32px;
+    font-weight: 400;
+    font-family: 'Anton', sans-serif;
+    color: #fff;
+    padding-bottom: 20px;
+}
+
+
+.subscribe_field input{
+    background: none;
+    border: 1px solid #0b001b;
+    padding: 5px 30px;
+
+}
+
+.Payment_Method_sec{
+    font-size: 32px;
+    font-weight: 400;
+    font-family: 'Anton', sans-serif;
+    color: #fff;
+    padding-bottom: 20px; 
+}
+
+.Payment_logo img{
+    padding-left: 10px;
+}
+
+/* SUBSCRIBE PART END */
+
+
+/* FOOTER PART START */
+
+#footer_part{
+    padding: 50px 0;
+    background: #0b001b;
+}
+
+.about h3{
+    font-size: 32px;
+    font-weight: 400;
+    font-family: 'Anton', sans-serif;
+    color: #fff;
+}
+.about p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    font-family: 'Nunito', sans-serif;
+    color: #fff;
+    padding: 30px 0;
+}
+
+.social_icon img{
+    padding-right: 10px;
+}
+
+
+.links h3{
+    font-size: 32px;
+    font-weight: 400;
+    font-family: 'Anton', sans-serif;
+    color: #fff;
+}
+
+.link_list{
+    padding-top: 30px;
+}
+
+.link_list ul li a{
+    list-style: none;
+    color: #fff;
+    text-decoration: none;
+    line-height: 40px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.Security_Info h3{
+    font-size: 32px;
+    font-weight: 400;
+    font-family: 'Anton', sans-serif;
+    color: #fff;
+}
+
+.option{
+    padding-top: 30px;
+    display: flex;
+    
+}
+
+.option_text p{
+    padding-top: 20px;
+    padding-left: 50px;
+    line-height: 20px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+
+}
+
+
+/* FOOTER PART END */
+
+
+/* FOOTER COPYRIGHT START */
+#copyright_part{
+    padding: 15px 0;
+    background: #0b001b;
+    border-top: 1px solid #6116d2;
+}
+
+.content p{
+    font-family: 'Nunito', sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    color: #fff;
+    text-align: center;  
+
+}
+/* FOOTER COPYRIGHT END */
+
