@@ -111,24 +111,27 @@ a{
     line-height: 50px;
     
 }
-
-button{
-    padding: 10px 40px;
-    border-radius: 5px;
-    border: none;
-    border-bottom: solid 8px #3a0090;
-    background: linear-gradient(to bottom right, #570dc8, #9e4efc);
-    
+.button{
+    text-align: center;
+    margin-top: 30px;
 }
 
-button a {
-    font-size: 24px;
+.text a{
+    font-size: 20px;
     font-weight: 400;
     font-family: 'Anton', sans-serif;
-    color: #fff;
-    line-height: 50px;
-    
+    color:#fff;
+    padding: 15px 30px;
+    border-radius: 5px;
+    border-bottom: solid 8px #3a0090;
+    background: linear-gradient(to bottom right, #570dc8, #9e4efc);
 }
+
+.text a:hover{
+    background: linear-gradient(to bottom right, #ff39dc, #a60084);
+    border-bottom: 8px solid #661355;
+}
+
 
 /* banner part end */
 
@@ -196,9 +199,52 @@ button a {
     font-family: 'Anton', sans-serif;
     text-align: center;
     color: #ffdc28; 
+}
+
+.games_card{
+    position: relative;
+    
+}
+
+.game_overly h3{
+    padding-bottom: 30px;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+    color: #fff; 
 
 }
 
+.game_overly a{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Anton', sans-serif;
+    color:#fff;
+    padding: 15px 30px;
+    border-radius: 5px;
+    border-bottom: solid 8px #3a0090;
+    background: linear-gradient(to bottom right, #570dc8, #9e4efc);
+    
+}
+
+
+.game_overly{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: hsla(264, 100%, 10%, 0.7);
+    top: 0;
+    left: 0;
+    visibility: hidden;
+    opacity: 0;
+    transition: .4s;
+    text-align: center;
+}
+.games_card:hover .game_overly{
+    visibility: visible;
+    opacity: 1;
+}
 
 
 /* GAMES PART END */
@@ -226,10 +272,26 @@ button a {
     padding-bottom: 50px;
 }
 
+.tas_button a{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Anton', sans-serif;
+    color:#fff;
+    padding: 15px 30px;
+    border-radius: 5px;
+    border-bottom: solid 8px #3a0090;
+    background: linear-gradient(to bottom right, #570dc8, #9e4efc);
+}
+.tas_button a:hover{
+    background: linear-gradient(to bottom right, #ff39dc, #a60084);
+    border-bottom: 8px solid #661355;
+}
+
 /* UNLOCK PART END */
 
 
 /* PRICING PART START */
+
 #pricing_part{
     padding: 100px 0;
     background: #0b001b;
