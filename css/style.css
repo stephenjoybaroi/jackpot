@@ -49,7 +49,7 @@ a{
 
 .nav_btn{
     margin-left: 20px;
-    padding: 15px 30px;
+    padding: 15px 40px;
     border-radius: 5px;
     border-bottom: solid 8px #3a0090;
     background: linear-gradient(to bottom right, #570dc8, #9e4efc);
@@ -121,7 +121,7 @@ a{
     font-weight: 400;
     font-family: 'Anton', sans-serif;
     color:#fff;
-    padding: 15px 30px;
+    padding: 15px 40px;
     border-radius: 5px;
     border-bottom: solid 8px #3a0090;
     background: linear-gradient(to bottom right, #570dc8, #9e4efc);
@@ -221,11 +221,15 @@ a{
     font-weight: 400;
     font-family: 'Anton', sans-serif;
     color:#fff;
-    padding: 15px 30px;
+    padding: 15px 40px;
     border-radius: 5px;
     border-bottom: solid 8px #3a0090;
     background: linear-gradient(to bottom right, #570dc8, #9e4efc);
     
+}
+.game_overly a:hover{
+    background: linear-gradient(to bottom right, #ff39dc, #a60084);
+    border-bottom: 8px solid #661355;
 }
 
 
@@ -240,7 +244,9 @@ a{
     opacity: 0;
     transition: .4s;
     text-align: center;
+    padding-top: 40%;
 }
+
 .games_card:hover .game_overly{
     visibility: visible;
     opacity: 1;
@@ -277,7 +283,7 @@ a{
     font-weight: 400;
     font-family: 'Anton', sans-serif;
     color:#fff;
-    padding: 15px 30px;
+    padding: 15px 40px;
     border-radius: 5px;
     border-bottom: solid 8px #3a0090;
     background: linear-gradient(to bottom right, #570dc8, #9e4efc);
@@ -355,9 +361,9 @@ a{
     line-height: 40px;
 }
 .one_price_button a{
-    padding: 20px 40px;
+    padding: 15px 40px;
     background: linear-gradient(to bottom right, #9e4efc, #570dc8);
-    border-radius: 2px;
+    border-radius: 5px;
     color:#fff;
     font-size: 24px;
     font-weight: 400;
@@ -367,6 +373,11 @@ a{
     position: absolute;
     left: 22%;
     bottom: 170px;
+}
+.one_price_button a:hover{
+    background: linear-gradient(to bottom right, #ff39dc, #a60084);
+    border-bottom: 8px solid #661355;
+    
 }
 
 /* price_card two */
@@ -417,19 +428,24 @@ a{
     line-height: 40px;
 }
 .sec_price_button a{
-    padding: 20px 40px;
-    background: linear-gradient(to bottom right, #ff39dc, #a60084);
-    border-radius: 2px;
+    padding: 15px 40px;
+    background: linear-gradient(to bottom right, #9e4efc, #570dc8);
+    border-radius: 5px;
     color:#fff;
     font-size: 24px;
     font-weight: 400;
     text-align: center;
     font-family: 'Anton', sans-serif;
-    border-bottom: 8px solid #661355;
+    border-bottom: 8px solid #3a0090;
     position: relative;
     left: 25%;
     bottom: 40px;
     z-index: 999;
+
+}
+.sec_price_button a:hover{
+    background: linear-gradient(to bottom right, #ff39dc, #a60084);
+    border-bottom: 8px solid #661355;
 
 }
 
@@ -498,9 +514,9 @@ a{
     line-height: 40px;
 }
 .three_price_button a{
-    padding: 20px 40px;
+    padding: 15px 40px;
     background: linear-gradient(to bottom right, #9e4efc, #570dc8);
-    border-radius: 2px;
+    border-radius: 5px;
     color:#fff;
     font-size: 24px;
     font-weight: 400;
@@ -511,6 +527,11 @@ a{
     left: 25%;
     bottom: 40px;
     z-index: 999;
+
+}
+.three_price_button a:hover{
+    background: linear-gradient(to bottom right, #ff39dc, #a60084);
+    border-bottom: 8px solid #661355;
 
 }
 
